@@ -76,25 +76,25 @@ prodesk-internship/
 
 | Week | Duration | Topics Covered | Status | Link |
 |------|----------|----------------|--------|------|
-| Week 1 | Jan 14 - Jan 20 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](./Week-01) |
-| Week 2 | Jan 21 - Jan 27 | - | 🔄 In Progress | [View](./Week-02) |
-| Week 3 | Jan 28 - Feb 03 | - | ⏳ Upcoming | [View](./Week-03) |
-| Week 4 | Feb 04 - Feb 10 | - | ⏳ Upcoming | [View](./Week-04) |
-| Week 5 | Feb 11 - Feb 17 | - | ⏳ Upcoming | [View](./Week-05) |
-| Week 6 | Feb 18 - Feb 24 | - | ⏳ Upcoming | [View](./Week-06) |
-| Week 7 | Feb 25 - Mar 03 | - | ⏳ Upcoming | [View](./Week-07) |
-| Week 8 | Mar 04 - Mar 10 | - | ⏳ Upcoming | [View](./Week-08) |
-| Week 9 | Mar 11 - Mar 17 | - | ⏳ Upcoming | [View](./Week-09) |
-| Week 10 | Mar 18 - Mar 24 | - | ⏳ Upcoming | [View](./Week-10) |
-| Week 11 | Mar 25 - Mar 31 | - | ⏳ Upcoming | [View](./Week-11) |
-| Week 12 | Apr 01 - Apr 07 | - | ⏳ Upcoming | [View](./Week-12) |
-| Week 13 | Apr 08 - Apr 14 | - | ⏳ Upcoming | [View](./Week-13) |
-| Week 14 | Apr 15 - Apr 21 | - | ⏳ Upcoming | [View](./Week-14) |
-| Week 15 | Apr 22 - Apr 28 | - | ⏳ Upcoming | [View](./Week-15) |
-| Week 16 | Apr 29 - May 05 | - | ⏳ Upcoming | [View](./Week-16) |
-| Week 17 | May 06 - May 12 | - | ⏳ Upcoming | [View](./Week-17) |
-| Week 18 | May 13 - May 19 | - | ⏳ Upcoming | [View](./Week-18) |
-| Week 19 | May 20 - May 24 | Final Project & Presentation | ⏳ Upcoming | [View](./Week-19) |
+| Week 1 | Jan 09 - Jan 16 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](./Week-01) |
+| Week 2 | Jan 16 - Jan 23 | - | 🔄 In Progress | [View](./Week-02) |
+| Week 3 | Jan 23 - Feb 30 | - | ⏳ Upcoming | [View](./Week-03) |
+| Week 4 | Jan 30 - Feb 06 | - | ⏳ Upcoming | [View](./Week-04) |
+| Week 5 | Feb 6 - Feb 13| - | ⏳ Upcoming | [View](./Week-05) |
+| Week 6 | Feb 13 - Feb 20 | - | ⏳ Upcoming | [View](./Week-06) |
+| Week 7 | Feb 20 - Mar 27 | - | ⏳ Upcoming | [View](./Week-07) |
+| Week 8 | Feb 27 - Mar 06 | - | ⏳ Upcoming | [View](./Week-08) |
+| Week 9 | Mar 6 - Mar 13 | - | ⏳ Upcoming | [View](./Week-09) |
+| Week 10 | Mar 13 - Mar 20 | - | ⏳ Upcoming | [View](./Week-10) |
+| Week 11 | Mar 20 - Mar 27 | - | ⏳ Upcoming | [View](./Week-11) |
+| Week 12 | Mar 27 - Apr 3 | - | ⏳ Upcoming | [View](./Week-12) |
+| Week 13 | Apr 3 - Apr 10 | - | ⏳ Upcoming | [View](./Week-13) |
+| Week 14 | Apr 10 - Apr 17 | - | ⏳ Upcoming | [View](./Week-14) |
+| Week 15 | Apr 17 - Apr 24 | - | ⏳ Upcoming | [View](./Week-15) |
+| Week 16 | Apr 24 - May 01 | - | ⏳ Upcoming | [View](./Week-16) |
+| Week 17 | May 01 - May 08 | - | ⏳ Upcoming | [View](./Week-17) |
+| Week 18 | May 08 - May 15 | - | ⏳ Upcoming | [View](./Week-18) |
+| Week 19 | May 16 - May 24 | Final Project & Presentation | ⏳ Upcoming | [View](./Week-19) |
 
 ---
 
