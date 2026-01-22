@@ -1,7 +1,7 @@
 # Prodesk IT - Major Internship Repository
 
 <div align="center">
-  <img src="https://img1.wsimg.com/isteam/ip/83d5de90-a5eb-47d5-af7b-90ab90fd67ce/logo.png/:/rs=w:400,h:400,cg:true,m/cr=w:400,h:400/qt=q:95" alt="Prodesk IT Logo" width="150"/>
+  <img src="https://img1.wsimg.com/isteam/ip/83d5de90-a5eb-47d5-a7bd-5cd38cd4c0e1/blob-8d642d8.png/:/rs=w:400,h:400,cg:true,m/cr=w:400,h:400/qt=q:95" width="150"/>
   
   ### Innovative Software Solutions Since 2012
   
