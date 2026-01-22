@@ -226,3 +226,10 @@ This repository is for educational purposes as part of the internship program at
   **© 2026 Prodesk IT. All rights reserved.**
   
 </div>
+
+
+![Hero Section](<Screenshot 2026-01-22 190447.png>)
+![Our Services](<Screenshot 2026-01-22 214909.png>)
+![Why Partner with Us](<Screenshot 2026-01-22 214937.png>) 
+![Get in touch](<Screenshot 2026-01-22 215003.png>) 
+![Footer](<Screenshot 2026-01-22 215017.png>)
