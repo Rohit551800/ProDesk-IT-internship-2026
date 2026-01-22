@@ -76,7 +76,7 @@ prodesk-internship/
 
 | Week | Duration | Topics Covered | Status | Link |
 |------|----------|----------------|--------|------|
-| Week 1 | Jan 09 - Jan 16 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](./Week-01) |
+| Week 1 | Jan 09 - Jan 16 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](https://rohitsinghgouriaweek1assignment.netlify.app/) |
 | Week 2 | Jan 16 - Jan 23 | - | 🔄 In Progress | [View](./Week-02) |
 | Week 3 | Jan 23 - Feb 30 | - | ⏳ Upcoming | [View](./Week-03) |
 | Week 4 | Jan 30 - Feb 06 | - | ⏳ Upcoming | [View](./Week-04) |
