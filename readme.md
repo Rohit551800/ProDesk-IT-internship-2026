@@ -5,7 +5,7 @@
   
   ### Innovative Software Solutions Since 2012
   
-  ![5 Months](https://img.shields.io/badge/Duration-14%20Jan%20to%2024%20May-blue)
+  ![5 Months](https://img.shields.io/badge/Duration-09%20Jan%20to%2024%20May-blue)
   ![19 Weeks](https://img.shields.io/badge/Weeks-19%20Weeks-green)
   ![2nd Week](https://img.shields.io/badge/Status-In%20Progress-orange)
 </div>
@@ -31,44 +31,38 @@ This repository contains all assignments, projects, and learning materials from 
 prodesk-internship/
 │
 ├── Week-01/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
+|
 │
 ├── Week-02/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources
+│   ├── index.htmk
+│   └── style.css
 │
 ├── Week-03/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 │
 ├── ...
 │
 ├── Week-17/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 │
 ├── Week-18/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 │
 ├── Week-19/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
-│
-├── resources/
-│   ├── documentation/
-│   ├── learning-materials/
-│   └── references/
-│
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 └── README.md
-```
 
 ---
 
