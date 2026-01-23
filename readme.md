@@ -5,7 +5,7 @@
   
   ### Innovative Software Solutions Since 2012
   
-  ![5 Months](https://img.shields.io/badge/Duration-14%20Jan%20to%2024%20May-blue)
+  ![5 Months](https://img.shields.io/badge/Duration-09%20Jan%20to%2024%20May-blue)
   ![19 Weeks](https://img.shields.io/badge/Weeks-19%20Weeks-green)
   ![2nd Week](https://img.shields.io/badge/Status-In%20Progress-orange)
 </div>
@@ -31,44 +31,38 @@ This repository contains all assignments, projects, and learning materials from 
 prodesk-internship/
 │
 ├── Week-01/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
+|
 │
 ├── Week-02/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources
+│   ├── index.htmk
+│   └── style.css
 │
 ├── Week-03/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 │
 ├── ...
 │
 ├── Week-17/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 │
 ├── Week-18/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 │
 ├── Week-19/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
-│
-├── resources/
-│   ├── documentation/
-│   ├── learning-materials/
-│   └── references/
-│
+│   ├── Resources/
+│   ├── index.html
+│   └── style.css
 └── README.md
-```
 
 ---
 
@@ -76,7 +70,7 @@ prodesk-internship/
 
 | Week | Duration | Topics Covered | Status | Link |
 |------|----------|----------------|--------|------|
-| Week 1 | Jan 09 - Jan 16 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](./Week-01) |
+| Week 1 | Jan 09 - Jan 16 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](https://rohitsinghgouriaweek1assignment.netlify.app/) |
 | Week 2 | Jan 16 - Jan 23 | - | 🔄 In Progress | [View](./Week-02) |
 | Week 3 | Jan 23 - Feb 30 | - | ⏳ Upcoming | [View](./Week-03) |
 | Week 4 | Jan 30 - Feb 06 | - | ⏳ Upcoming | [View](./Week-04) |
@@ -226,3 +220,10 @@ This repository is for educational purposes as part of the internship program at
   **© 2026 Prodesk IT. All rights reserved.**
   
 </div>
+
+
+![Hero Section](<Screenshot 2026-01-22 190447.png>)
+![Our Services](<Screenshot 2026-01-22 214909.png>)
+![Why Partner with Us](<Screenshot 2026-01-22 214937.png>) 
+![Get in touch](<Screenshot 2026-01-22 215003.png>) 
+![Footer](<Screenshot 2026-01-22 215017.png>)
