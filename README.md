@@ -1,13 +1,13 @@
 # Prodesk IT - Major Internship Repository
 
 <div align="center">
-  <img src="https://img1.wsimg.com/isteam/ip/83d5de90-a5eb-47d5-a7bd-5cd38cd4c0e1/blob-8d642d8.png/:/rs=w:400,h:400,cg:true,m/cr=w:400,h:400/qt=q:95" width="150"/>
+  <img src="https://img1.wsimg.com/isteam/ip/83d5de90-a5eb-47d5-af7b-90ab90fd67ce/logo.png/:/rs=w:400,h:400,cg:true,m/cr=w:400,h:400/qt=q:95" alt="Prodesk IT Logo" width="150"/>
   
   ### Innovative Software Solutions Since 2012
   
-  ![5 Months](https://img.shields.io/badge/Duration-14%20Jan%20to%2024%20May-blue)
-  ![19 Weeks](https://img.shields.io/badge/Weeks-19%20Weeks-green)
-  ![2nd Week](https://img.shields.io/badge/Status-In%20Progress-orange)
+  ![Internship Duration](https://img.shields.io/badge/Duration-09%20Jan%20to%2024%20May-blue)
+  ![Weeks](https://img.shields.io/badge/Weeks-19%20Weeks-green)
+  ![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 </div>
 
 ---
@@ -28,44 +28,29 @@ This repository contains all assignments, projects, and learning materials from 
 ## 🗂️ Repository Structure
 
 ```
-prodesk-internship/
+AssignmentsProdesk/
 │
 ├── Week-01/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── index.html
+│   ├── style.css
+│   ├── prompts.md
 │
 ├── Week-02/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── index.html
+│   ├── style.css
+│   ├── prompts.md
 │
 ├── Week-03/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
+│   ├── index.html
+│   ├── style.css
+│   ├── prompts.md
 │
 ├── ...
 │
-├── Week-17/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
-│
-├── Week-18/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
-│
 ├── Week-19/
-│   ├── assignments/
-│   ├── projects/
-│   └── README.md
-│
-├── resources/
-│   ├── documentation/
-│   ├── learning-materials/
-│   └── references/
+│   ├── index.html
+│   ├── style.css
+│   ├── prompts.md
 │
 └── README.md
 ```
@@ -76,25 +61,25 @@ prodesk-internship/
 
 | Week | Duration | Topics Covered | Status | Link |
 |------|----------|----------------|--------|------|
-| Week 1 | Jan 09 - Jan 16 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](./Week-01) |
-| Week 2 | Jan 16 - Jan 23 | - | 🔄 In Progress | [View](./Week-02) |
-| Week 3 | Jan 23 - Feb 30 | - | ⏳ Upcoming | [View](./Week-03) |
-| Week 4 | Jan 30 - Feb 06 | - | ⏳ Upcoming | [View](./Week-04) |
-| Week 5 | Feb 6 - Feb 13| - | ⏳ Upcoming | [View](./Week-05) |
-| Week 6 | Feb 13 - Feb 20 | - | ⏳ Upcoming | [View](./Week-06) |
-| Week 7 | Feb 20 - Mar 27 | - | ⏳ Upcoming | [View](./Week-07) |
-| Week 8 | Feb 27 - Mar 06 | - | ⏳ Upcoming | [View](./Week-08) |
-| Week 9 | Mar 6 - Mar 13 | - | ⏳ Upcoming | [View](./Week-09) |
-| Week 10 | Mar 13 - Mar 20 | - | ⏳ Upcoming | [View](./Week-10) |
-| Week 11 | Mar 20 - Mar 27 | - | ⏳ Upcoming | [View](./Week-11) |
-| Week 12 | Mar 27 - Apr 3 | - | ⏳ Upcoming | [View](./Week-12) |
-| Week 13 | Apr 3 - Apr 10 | - | ⏳ Upcoming | [View](./Week-13) |
-| Week 14 | Apr 10 - Apr 17 | - | ⏳ Upcoming | [View](./Week-14) |
-| Week 15 | Apr 17 - Apr 24 | - | ⏳ Upcoming | [View](./Week-15) |
-| Week 16 | Apr 24 - May 01 | - | ⏳ Upcoming | [View](./Week-16) |
-| Week 17 | May 01 - May 08 | - | ⏳ Upcoming | [View](./Week-17) |
-| Week 18 | May 08 - May 15 | - | ⏳ Upcoming | [View](./Week-18) |
-| Week 19 | May 16 - May 24 | Final Project & Presentation | ⏳ Upcoming | [View](./Week-19) |
+| Week 1 | Jan 09 - Jan 15 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](https://rohitsinghgouriaweek1assignment.netlify.app/) |
+| Week 2 | Jan 16 - Jan 22 | - | 🔄 In Progress | [View](./Week-02) |
+| Week 3 | Jan 23 - Jan 29 | - | ⏳ Upcoming | [View](./Week-03) |
+| Week 4 | Jan 30 - Feb 05 | - | ⏳ Upcoming | [View](./Week-04) |
+| Week 5 | Feb 06 - Feb 12 | - | ⏳ Upcoming | [View](./Week-05) |
+| Week 6 | Feb 13 - Feb 19 | - | ⏳ Upcoming | [View](./Week-06) |
+| Week 7 | Feb 20 - Feb 26 | - | ⏳ Upcoming | [View](./Week-07) |
+| Week 8 | Feb 27 - Mar 05 | - | ⏳ Upcoming | [View](./Week-08) |
+| Week 9 | Mar 06 - Mar 12 | - | ⏳ Upcoming | [View](./Week-09) |
+| Week 10 | Mar 13 - Mar 19 | - | ⏳ Upcoming | [View](./Week-10) |
+| Week 11 | Mar 20 - Mar 26 | - | ⏳ Upcoming | [View](./Week-11) |
+| Week 12 | Mar 27 - Apr 02 | - | ⏳ Upcoming | [View](./Week-12) |
+| Week 13 | Apr 03 - Apr 09 | - | ⏳ Upcoming | [View](./Week-13) |
+| Week 14 | Apr 10 - Apr 16 | - | ⏳ Upcoming | [View](./Week-14) |
+| Week 15 | Apr 17 - Apr 23 | - | ⏳ Upcoming | [View](./Week-15) |
+| Week 16 | Apr 24 - Apr 30 | - | ⏳ Upcoming | [View](./Week-16) |
+| Week 17 | May 01 - May 07 | - | ⏳ Upcoming | [View](./Week-17) |
+| Week 18 | May 08 - May 14 | - | ⏳ Upcoming | [View](./Week-18) |
+| Week 19 | May 15 - May 24 | Final Project & Presentation | ⏳ Upcoming | [View](./Week-19) |
 
 ---
 
@@ -118,26 +103,22 @@ prodesk-internship/
 - UI/UX Design Principles
 - Responsive Web Design
 
-### Backend Development
-- Node.js
-- RESTful APIs
-- Database Management
-- Server Configuration
 
 ### Tools & Platforms
 - Git & GitHub
 - VS Code
+
 ---
 
 ## 📚 Weekly Assignment Guidelines
 
 Each week's folder contains:
 
-1. **Assignments**: Weekly coding tasks and challenges
-2. **Projects**: Mini projects and hands-on implementations
-3. **README.md**: Detailed documentation of weekly work
-4. **Code Files**: All source code with proper comments
-5. **Screenshots**: Visual documentation of outputs
+1. **index.html**: Main HTML file for the week's project
+2. **style.css**: Styling file for the project
+3. **prompts.md**: AI prompts used for generating code
+4. **README.md**: Detailed documentation of weekly work
+5. **Additional files**: As per project requirements
 
 ---
 
@@ -156,12 +137,12 @@ Each week's folder contains:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rohitsingh/prodesk-IT-internship.git
+   git clone https://github.com/Rohit551800/ProDesk-IT-internship-2026
    ```
 
 2. Navigate to specific week:
    ```bash
-   cd prodesk-IT-internship/Week-01
+   cd prodesk-internship/Week-01
    ```
 
 3. Review assignments and projects in each week's folder
@@ -173,9 +154,9 @@ Each week's folder contains:
 ## 📞 Contact Information
 
 **Company**: Prodesk IT  
-**Email**: infoprodesk@gmail.in  
+**Email**: info@prodeskin.in  
 **Phone**: +123456789  
-**Office Hours**: Monday - Saturday (10:00 AM - 7:00 PM)
+**Office Hours**: Monday - Saturday (9:00 AM - 5:00 PM)
 
 **Intern Details**:  
 - **Name**: Rohit Singh Gouria
@@ -191,7 +172,7 @@ This repository is updated regularly with new assignments and projects.
 
 ### Recent Updates
 - **Jan 22, 2026**: Week 1 completed - Grid, Flexbox, Responsive Design, Themes
-- **Jan 14, 2026**: Repository initialized, Internship commenced
+- **Jan 09, 2026**: Repository initialized, Internship commenced
 
 ---
 
@@ -203,7 +184,10 @@ This repository is updated regularly with new assignments and projects.
 - ⏳ Mid-term evaluation
 - ⏳ Final project completion
 
+
+
 ---
+
 ## 🤝 Acknowledgments
 
 Special thanks to:
