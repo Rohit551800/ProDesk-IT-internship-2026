@@ -1,7 +1,7 @@
 # Prodesk IT - Major Internship Repository
 
 <div align="center">
-  <img src="https://img1.wsimg.com/isteam/ip/83d5de90-a5eb-47d5-a7bd-5cd38cd4c0e1/blob-8d642d8.png/:/rs=w:400,h:400,cg:true,m/cr=w:400,h:400/qt=q:95"/>
+  <img src="https://img1.wsimg.com/isteam/ip/83d5de90-a5eb-47d5-a7bd-5cd38cd4c0e1/blob-8d642d8.png/:/rs=w:200,h:200,cg:true,m/cr=w:400,h:400/qt=q:95"/>
   
   ### Innovative Software Solutions Since 2012
   
@@ -62,7 +62,7 @@ AssignmentsProdesk/
 | Week | Duration | Topics Covered | Status | Link |
 |------|----------|----------------|--------|------|
 | Week 1 | Jan 09 - Jan 15 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](https://rohitsinghgouriaweek1assignment.netlify.app/) |
-| Week 2 | Jan 16 - Jan 22 | - | 🔄 In Progress | [View](./Week-02) |
+| Week 2 | Jan 16 - Jan 22 | - | 🔄 In Progress | [View](https://rohitsinghgouriaweek2assignment.netlify.app/) |
 | Week 3 | Jan 23 - Jan 29 | - | ⏳ Upcoming | [View](./Week-03) |
 | Week 4 | Jan 30 - Feb 05 | - | ⏳ Upcoming | [View](./Week-04) |
 | Week 5 | Feb 06 - Feb 12 | - | ⏳ Upcoming | [View](./Week-05) |
@@ -161,8 +161,8 @@ Each week's folder contains:
 **Intern Details**:  
 - **Name**: Rohit Singh Gouria
 - **Email**: rohitsingh139915@gmail.com
-- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/rohit-singh-gouria-475923278/)
-- **GitHub**: [github.com/rohitsingh](https://github.com/Rohit551800)
+- **LinkedIn**: [Connect](https://www.linkedin.com/in/rohit-singh-gouria-475923278/)
+- **GitHub**: [Connect](https://github.com/Rohit551800)
 
 ---
 
