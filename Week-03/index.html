@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev-Detective | GitHub User Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <svg class="logo-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                Dev-Detective
+            </h1>
+            <p class="tagline">Search Any GitHub Developer Worldwide</p>
+        </div>
+    </header>
+
+    <!-- Mode Toggle Section -->
+    <section class="mode-toggle-section">
+        <div class="container">
+            <div class="mode-toggle">
+                <button class="mode-btn active" id="singleModeBtn" data-mode="single">
+                    Single Search
+                </button>
+                <button class="mode-btn" id="battleModeBtn" data-mode="battle">
+                    ⚔️ Battle Mode
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- SINGLE SEARCH MODE -->
+            <div id="singleMode" class="search-mode active">
+                <!-- Search Bar -->
+                <form class="search-form" id="searchForm">
+                    <div class="search-wrapper">
+                        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input 
+                            type="text" 
+                            class="search-input" 
+                            id="searchInput" 
+                            placeholder="Enter GitHub username (e.g., octocat)"
+                            autocomplete="off"
+                        >
+                        <button type="submit" class="search-btn">Search</button>
+                    </div>
+                </form>
+
+                <!-- Result Container -->
+                <div id="resultContainer" class="result-container"></div>
+            </div>
+
+            <!-- BATTLE MODE -->
+            <div id="battleMode" class="search-mode">
+                <form class="battle-form" id="battleForm">
+                    <div class="battle-inputs">
+                        <div class="battle-input-group">
+                            <label for="battleInput1">Developer 1</label>
+                            <input 
+                                type="text" 
+                                class="search-input" 
+                                id="battleInput1" 
+                                placeholder="Username 1"
+                                autocomplete="off"
+                            >
+                        </div>
+                        <div class="vs-badge">VS</div>
+                        <div class="battle-input-group">
+                            <label for="battleInput2">Developer 2</label>
+                            <input 
+                                type="text" 
+                                class="search-input" 
+                                id="battleInput2" 
+                                placeholder="Username 2"
+                                autocomplete="off"
+                            >
+                        </div>
+                    </div>
+                    <button type="submit" class="battle-btn">⚔️ Start Battle</button>
+                </form>
+
+                <!-- Battle Results -->
+                <div id="battleResults" class="battle-results"></div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Rohit Singh Gouria</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
