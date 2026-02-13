@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+section.active{
+    display: flex;
+}
+
+section .bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 33, 33, 0.332);
+    backdrop-filter: blur(20px);
+    z-index: 1;
+}
+
+.modal{
+    height: 70vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 30px;
+    z-index: 10;
+    background-color: rgba(25, 25, 25, 0.758);
+}
+
+.modal input{
+    font-size: 20px;
+    height: 10%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+    
+}
+.modal textarea{
+    height: 70%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    overflow-y: visible;
+}
+.modal textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.modal button{
+    align-self: center;
+}
+.modal button:active{
+    transform: scale(1);
+}
+
