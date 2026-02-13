@@ -62,9 +62,9 @@ AssignmentsProdesk/
 | Week | Duration | Topics Covered | Status | Link |
 |------|----------|----------------|--------|------|
 | Week 1 | Jan 09 - Jan 15 | CSS Grid, Flexbox, Responsive Web Design, Theme Implementation | ✅ Completed | [View](https://rohitsinghgouriaweek1assignment.netlify.app/) |
-| Week 2 | Jan 16 - Jan 22 | - | 🔄 In Progress | [View](https://rohitsinghgouriaweek2assignment.netlify.app/) |
-| Week 3 | Jan 23 - Jan 29 | - | ⏳ Upcoming | [View](./Week-03) |
-| Week 4 | Jan 30 - Feb 05 | - | ⏳ Upcoming | [View](./Week-04) |
+| Week 2 | Jan 16 - Jan 22 | DOM manipulation, localStorage, charts, APIs, PDF export, and UI state handling. | ✅ Completed | [View](https://rohitsinghgouriaweek2assignment.netlify.app/) |
+| Week 3 | Jan 23 - Jan 29 | Fetch API, async/await, JSON handling, error & loading states, API data rendering, date formatting, and parallel API calls. | ✅ Completed | [View](rohitsinghgouriaweek3assignment.netlify.app) |
+| Week 4 | Jan 30 - Feb 05 | - | 🔄 In Progress  | [View](./Week-04) |
 | Week 5 | Feb 06 - Feb 12 | - | ⏳ Upcoming | [View](./Week-05) |
 | Week 6 | Feb 13 - Feb 19 | - | ⏳ Upcoming | [View](./Week-06) |
 | Week 7 | Feb 20 - Feb 26 | - | ⏳ Upcoming | [View](./Week-07) |
