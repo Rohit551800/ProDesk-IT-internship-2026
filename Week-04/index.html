@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cover Letter Generator - 3D Interactive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+        <div class="floating-shape shape-5"></div>
+        <div class="floating-shape shape-6"></div>
+    </div>
+
+    <!-- Particles Background -->
+    <div class="particles-container" id="particles"></div>
+
+    <div class="container">
+        <!-- Hero Header with 3D Effect -->
+        <header class="hero-header">
+            <div class="logo-3d">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">AI</span>
+            </div>
+            <h1 class="title-3d">
+                <span class="text-gradient">Cover Letter</span>
+                <span class="text-gradient-alt">Generator</span>
+            </h1>
+            <p class="subtitle-animated">Transform Your Career Story with AI Magic 🚀</p>
+            <div class="stats-row">
+                <div class="stat-card">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Letters Created</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5 Sec</div>
+                    <div class="stat-label">Avg. Time</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Level Selector with 3D Cards -->
+        <div class="level-selector-3d">
+            <div class="level-card active" data-level="1">
+                <div class="level-icon">📝</div>
+                <div class="level-title">Template</div>
+                <div class="level-desc">Instant generation</div>
+                <div class="level-badge">Free</div>
+            </div>
+            <div class="level-card" data-level="2">
+                <div class="level-icon">🤖</div>
+                <div class="level-title">AI Powered</div>
+                <div class="level-desc">Smart personalization</div>
+                <div class="level-badge">Pro</div>
+            </div>
+            <div class="level-card" data-level="3">
+                <div class="level-icon">🚀</div>
+                <div class="level-title">SaaS Mode</div>
+                <div class="level-desc">Resume analysis</div>
+                <div class="level-badge">Premium</div>
+            </div>
+        </div>
+
+        <!-- Main Form Card with Glassmorphism -->
+        <div class="glass-card main-form-card">
+            <div class="card-glow"></div>
+            <form id="coverLetterForm">
+                <div class="form-header">
+                    <h2 class="form-title">
+                        <span class="form-icon">👤</span>
+                        Tell Us About Yourself
+                    </h2>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-group floating-label">
+                        <input 
+                            type="text" 
+                            id="candidateName" 
+                            placeholder=" " 
+                            required
+                        >
+                        <label for="candidateName">
+                            <span class="label-icon">👤</span>
+                            Your Full Name
+                        </label>
+                        <div class="input-border"></div>
+                    </div>
+
+                    <div class="form-group floating-label">
+                        <input 
+                            type="text" 
+                            id="jobRole" 
+                            placeholder=" " 
+                            required
+                        >
+                        <label for="jobRole">
+                            <span class="label-icon">💼</span>
+                            Target Position
+                        </label>
+                        <div class="input-border"></div>
+                    </div>
+                </div>
+
+                <div class="form-group floating-label">
+                    <input 
+                        type="text" 
+                        id="companyName" 
+                        placeholder=" " 
+                        required
+                    >
+                    <label for="companyName">
+                        <span class="label-icon">🏢</span>
+                        Company Name
+                    </label>
+                    <div class="input-border"></div>
+                </div>
+
+                <div class="form-group floating-label">
+                    <textarea 
+                        id="keySkills" 
+                        rows="3" 
+                        placeholder=" "
+                        required
+                    ></textarea>
+                    <label for="keySkills">
+                        <span class="label-icon">⚡</span>
+                        Your Superpowers (Skills)
+                    </label>
+                    <div class="input-border"></div>
+                </div>
+
+                <div class="form-group floating-label">
+                    <textarea 
+                        id="jobDescription" 
+                        rows="4" 
+                        placeholder=" "
+                    ></textarea>
+                    <label for="jobDescription">
+                        <span class="label-icon">📋</span>
+                        Job Description (Optional)
+                    </label>
+                    <div class="input-border"></div>
+                </div>
+
+                <!-- Level 3: Resume Upload with 3D Effect -->
+                <div class="form-group resume-upload-3d" id="resumeUploadSection" style="display: none;">
+                    <div class="upload-zone">
+                        <input 
+                            type="file" 
+                            id="resumeFile" 
+                            accept=".pdf"
+                            class="file-input"
+                        >
+                        <label for="resumeFile" class="upload-label">
+                            <div class="upload-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="17 8 12 3 7 8"></polyline>
+                                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                                </svg>
+                            </div>
+                            <div class="upload-text">
+                                <strong>Drop your resume here</strong>
+                                <span>or click to browse</span>
+                            </div>
+                            <div class="upload-hint">PDF files only • Max 5MB</div>
+                        </label>
+                        <div id="fileName" class="file-name-3d"></div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-3d btn-primary-3d" id="generateBtn">
+                    <span class="btn-text">
+                        <span class="btn-icon">✨</span>
+                        Generate My Perfect Letter
+                    </span>
+                    <span class="btn-loader" style="display: none;">
+                        <span class="loader-3d"></span>
+                        <span class="loader-text">Creating Magic...</span>
+                    </span>
+                    <div class="btn-shine"></div>
+                </button>
+            </form>
+        </div>
+
+        <!-- Output Section with 3D Card -->
+        <div class="glass-card output-card-3d" id="outputSection" style="display: none;">
+            <div class="card-glow"></div>
+            <div class="output-header-3d">
+                <div class="success-badge">
+                    <span class="success-icon">✓</span>
+                    Your Letter is Ready!
+                </div>
+                <h2 class="output-title">
+                    <span class="sparkle">✨</span>
+                    AI Generated Cover Letter
+                    <span class="sparkle">✨</span>
+                </h2>
+            </div>
+            
+            <div class="letter-preview-3d">
+                <div class="preview-toolbar">
+                    <button class="toolbar-btn" id="copyBtn" title="Copy to clipboard">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="toolbar-btn" id="downloadBtn" title="Download">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Download
+                    </button>
+                    <button class="toolbar-btn" id="regenerateBtn" title="Generate another">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <polyline points="23 20 23 14 17 14"></polyline>
+                            <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+                        </svg>
+                        New
+                    </button>
+                </div>
+                
+                <div class="cover-letter-output-3d" id="coverLetterOutput"></div>
+            </div>
+        </div>
+
+        <!-- Info Box with 3D Effect -->
+        <div class="info-box-3d" id="infoBox">
+            <div class="info-icon-3d">💡</div>
+            <div class="info-content">
+                <h3 class="info-title">Template Mode</h3>
+                <p class="info-desc">Uses a professional template with your information. Perfect for getting started!</p>
+            </div>
+        </div>
+
+        <!-- Feature Cards -->
+        <div class="features-grid">
+            <div class="feature-card-3d">
+                <div class="feature-icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Generate in under 5 seconds</p>
+            </div>
+            <div class="feature-card-3d">
+                <div class="feature-icon">🎯</div>
+                <h3>Highly Targeted</h3>
+                <p>Personalized for each job</p>
+            </div>
+            <div class="feature-card-3d">
+                <div class="feature-icon">🔒</div>
+                <h3>100% Secure</h3>
+                <p>Your data stays private</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-3d">
+        <div class="footer-content">
+            <p>Built with <span class="heart-beat">❤️</span> for Mission 4</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">About</a>
+                <a href="#" class="footer-link">Privacy</a>
+                <a href="#" class="footer-link">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

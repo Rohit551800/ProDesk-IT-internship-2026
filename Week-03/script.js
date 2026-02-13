@@ -55,19 +55,12 @@ searchForm.addEventListener('submit', async (e) => {
 });
 
 async function searchUser(username) {
-    // Show loading state
     showLoading(resultContainer);
     
     try {
-        // Fetch user data
         const userData = await fetchUserData(username);
-        
-        // Fetch repositories
         const repos = await fetchUserRepos(username);
-        
-        // Display profile
         displayProfile(userData, repos, resultContainer);
-        
     } catch (error) {
         showError(resultContainer, error.message);
     }
@@ -93,30 +86,20 @@ battleForm.addEventListener('submit', async (e) => {
 });
 
 async function battleUsers(username1, username2) {
-    // Show loading state
     showLoading(battleResults);
     
     try {
-        // Fetch both users simultaneously
         const [user1Data, user2Data] = await Promise.all([
             fetchUserData(username1),
             fetchUserData(username2)
         ]);
-        
-        // Fetch both users' repos simultaneously
         const [repos1, repos2] = await Promise.all([
             fetchUserRepos(username1),
             fetchUserRepos(username2)
         ]);
-        
-        // Calculate total stars
         const stars1 = calculateTotalStars(repos1);
         const stars2 = calculateTotalStars(repos2);
-        
-        // Determine winner
         const winner = stars1 > stars2 ? 1 : stars1 < stars2 ? 2 : 0;
-        
-        // Display battle results
         displayBattleResults(user1Data, user2Data, repos1, repos2, stars1, stars2, winner);
         
     } catch (error) {

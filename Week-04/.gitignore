@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment Variables (CRITICAL - NEVER COMMIT THIS!)
+.env
+
+# API Keys and Secrets
+*.key
+*.pem
+secrets/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# IMPORTANT: .env must be in .gitignore
+# Committing API keys to GitHub will result in:
+# - Security breach
+# - Automatic quota consumption by bots
+# - Potential financial charges
+# - AUTOMATIC FAIL in this project assessment
