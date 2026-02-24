@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <p className="hero-tag">New Collection 2025</p>
+        <p className="hero-tag">New Collection 2026</p>
         <h1>DISCOVER<br /><span>EVERYTHING</span><br />YOU NEED</h1>
         <p className="hero-sub">
           Thousands of products. Unbeatable prices. Delivered fast.
