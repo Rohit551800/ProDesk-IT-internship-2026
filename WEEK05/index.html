@@ -49,3 +49,55 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="newtask.css">
+</head>
+<body>
+    <nav>
+        <h2>TO-DO-APP</h2>
+        <button>Add new task</button>
+    </nav>
+
+    <main>
+        <div class="box" id="todo">
+            <div class="heading">
+                <h4>TO-DO</h4>
+                <h3>count : <span>0</span></h3>
+            </div>
+        </div>
+
+        <div class="box" id="progress">
+            <div class="heading">
+                <h4>In Progress</h4>
+                <h3>count : <span>0</span></h3>
+            </div>
+        </div>
+
+        <div class="box" id="done">
+            <div class="heading">
+                <h4>Done</h4>
+                <h3>count : <span>0</span></h3>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="bg"></div>
+
+        <div class="modal addnewtask">
+            <input id="taskinput" type="text" autocomplete="off" placeholder="Enter task">
+            <textarea id="tasktextarea" placeholder="Enter about task"></textarea>
+            <button>Add task</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

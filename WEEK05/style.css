@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -122,3 +123,129 @@ main {
   transform: scale(1.01);
   cursor: grabbing;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(19, 17, 20);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+nav h2 {
+  font-weight: 400;
+  user-select: none;
+}
+
+button {
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: brown;
+  font-size: 15px;
+  font-weight: 500;
+  color: aliceblue;
+  border: none;
+  user-select: none;
+  transition: transform 0.15s ease;
+}
+
+button:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.box {
+  margin-top: 40px;
+  min-height: 80vh;
+  height: auto;
+  width: 25vw;
+  border: 1px solid white;
+  border-radius: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 0px 0px 10px 0px;
+
+  user-select: none;
+  transition: transform 0.1s linear;
+}
+
+.heading {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading h3 {
+  font-weight: 500;
+}
+
+.heading h4 {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-offset: 3px;
+}
+
+.task {
+  width: 95%;
+  padding: 10px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  cursor: grab;
+  transition: transform 0.12s ease;
+}
+
+.task:hover {
+  transform: scale(1.02);
+}
+
+.task:active {
+  cursor: grabbing;
+}
+
+.task button {
+  align-self: flex-end;
+  height: 24px;
+  width: 70px;
+  font-size: 12px;
+  font-weight: 100;
+  border: none;
+}
+
+.draghover {
+  border: 2px solid aliceblue;
+  transform: scale(1.01);
+  cursor: grabbing;
+}
+>>>>>>> 6268f6db4da58d234619f9c410726069a7ad2b6a
